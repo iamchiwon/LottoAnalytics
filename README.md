@@ -11,3 +11,10 @@
 - 그 외 정보는 당첨자 수와 금액이 있는데, 일단 필요 없을 듯.
 - 파이썬으로 크롤링 해서 가져온다. [http://nlotto.co.kr](http://nlotto.co.kr)
 - [노트북 보기](1.Crawling.md)
+
+## 2. 전체회차 데이터 가져오기
+- 1회부터 최근 회까지 전체 데이터 가져오기
+- DataFrame 으로 만들기
+- 회차를 index로 하기
+- 날짜 컬럼을 datetime 으로 변경
+- [노트북 보기](2.Dataframe.md)
